@@ -33,7 +33,7 @@ public class Main {
                 int rowad=depositstatement.executeUpdate();
                 if(rowad>0 && rowaw>0){
                     con.commit();
-                    System.out.println("Transaction successful");}
+                    System.out.println("Transaction successful!");}
                 else{
                     con.rollback();
                     System.out.println("Transaction failed!!");
